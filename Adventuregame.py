@@ -71,7 +71,7 @@ def visit_shop(player):
     print("1. Health Potion (25 gold) - restore 40 HP")
     print("2. Steel Sword (60 gold) - better weapon")
     print("3. Leave shop")
-
+#in this section, the player can choose to buy a health potion or a steel sword if they have enough gold. If they don't have enough gold, they are informed and can choose another option.
     choice = input("What would you like to buy? ").strip()
     if choice == "1":
         if player.gold >= 25:
