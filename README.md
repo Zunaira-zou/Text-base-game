@@ -1,4 +1,4 @@
-# Python Adventure
+# Adventure Game
 
 A simple text-based adventure game written in Python. Explore the wilderness, fight enemies, visit the shop, and try to survive as long as you can.
 
