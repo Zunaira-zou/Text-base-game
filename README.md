@@ -56,30 +56,6 @@ python3 adventure.py
 
 ---
 
-## Project Structure
-
-```
-python-adventure/
-├── adventure.py      # Main game file
-└── README.md
-```
-
----
-
-## Gameplay Loop
-
-```
-Start → Create Hero → Main Menu
-                         ├── Explore → (Enemy encounter or gold find)
-                         ├── Shop → Buy items
-                         ├── Rest → Recover HP
-                         └── Quit → End game
-```
-
-The game ends when the player’s health reaches 0 or they choose to quit.
-
----
-
 ## Possible Improvements
 
 - [ ] Save / load system
